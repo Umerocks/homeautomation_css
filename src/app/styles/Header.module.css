@@ -1,0 +1,58 @@
+.headerBody {
+    font-family: Arial, sans-serif;
+    background-color: #05ee05;
+    margin: 0;
+    padding: 2px;
+    margin-right: 50px;
+}
+
+.bgImage {
+    background-image: url('/images/home03.jpg');
+    background-size: cover; /* Adjusts the size of the image */
+    background-position: center; /* Centers the image */
+    /* Optional: Set height and padding */
+     height: 200px; /*Adjust as needed */
+    /* padding:150; Adjust as needed  */
+    /* color: rgb(173, 0, 101); Text color */
+    max-width: 100%; /* Image will not exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.div{
+    font-family: Arial, sans-serif;
+    background-color: #16a8b3;
+    text-align: end;
+}
+
+.h1Header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder; /* or use a numeric value like 700 */
+    font-size: 25px;
+    font-style: initial;
+    font-family: 'Times New Roman';
+}
+
+.h2Header  {
+    /* color: rgb(0, 0, 0); */
+    text-align: center;
+    /* font-weight: bold; or use a numeric value like 700 */
+    /* font-size: x-large; */
+}
+
+.h3Header  {
+    text-align: end;
+    margin-right: 350px;
+    margin-top: -25px;
+}
+
+.h4Header  {
+    text-align: end;
+    margin-right: 150px;
+    margin-top: -38px;
+}
+
+.h5Header  {
+    text-align: end;
+    margin-top: -38px;
+}
