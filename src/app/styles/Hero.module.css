@@ -6,6 +6,16 @@
   width: 100%; /* Full width to allow right alignment */
 }
 
+.h3{
+    /* display: flex; */
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-variant: small-caps;
+    text-align: center;
+  }
+
 .p{
     color:rgb(93, 253, 0);
     font-style: italic;

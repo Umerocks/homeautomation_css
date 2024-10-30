@@ -5,6 +5,7 @@ import styles from './styles/Hero.module.css'
 export default function Home() {
     return (
         <div>
+            <h3 className={styles.h3}> What We Are??</h3>
         <p className={styles.p}>
                We offer smart home and smart office solutions. You can buy all
                 kinds of home automation products for your smart home.<br/>With our sensors

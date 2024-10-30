@@ -13,23 +13,25 @@ return(
             <h1 className={styles.h1Header}>Home Automation Solutions </h1> 
             <h2 className={styles.h2Header}>
             
-            <h6 className={styles.h6Header}><Link href="/">
+        <h6 className={styles.h6Header}><Link href="/">
             <Button text='Home'>
             </Button>
         </Link> </h6>
-           <h3 className={styles.h3Header}><Link href="/contact">
+           
+        <h3 className={styles.h3Header}><Link href="/contact">
             <Button text='Conatct Us'>
             </Button>
         </Link> </h3>
         
-<h4 className={styles.h4Header}><Link href="/about">
+        <h4 className={styles.h4Header}><Link href="/about">
             <Button text= 'About Us'>
             </Button>
         </Link></h4>
-<h5 className={styles.h5Header}><Link href="/help">
+        
+        {/* <h5 className={styles.h5Header}><Link href="/help">
             <Button text= 'Help'>
             </Button>
-        </Link></h5>
+        </Link></h5> */}
         </h2>
           {/* </div> */}
    </header>

@@ -20,12 +20,13 @@
 
 .div{
     font-family: Arial, sans-serif;
-    background-color: #16a8b3;
+    background-color: #000000;
     text-align: end;
 }
 
 .h1Header {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 247, 255);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     font-weight: bolder; /* or use a numeric value like 700 */
     font-size: 25px;
@@ -34,31 +35,34 @@
 }
 
 .h2Header  {
-    /* color: rgb(0, 0, 0); */
-    text-align: center;
-    /* font-weight: bold; or use a numeric value like 700 */
-    /* font-size: x-large; */
+    /* flex: content; */
+    /* text-align: justify; */
+    /* display: flex; */
+    /* justify-content: flex-start; Aligns content to the right */
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.h6Header  {
+    text-align: end;
+    margin-right: 30%;
+    /* margin-top: 1%; */
 }
 
 .h3Header  {
     text-align: end;
-    margin-right: 350px;
-    margin-top: -25px;
+    margin-right: 20%;
+    /* margin-top: auto; */
 }
 
 .h4Header  {
     text-align: end;
-    margin-right: 150px;
-    margin-top: -38px;
+    margin-right: 10%;
+    /* margin-top: -38px; */
 }
 
-.h5Header  {
+/* .h5Header  {
     text-align: end;
-    margin-top: -38px;
-}
+    /* margin-top: -38px; */
+/* } */
 
-.h6Header  {
-    text-align: end;
-    margin-right: 150px;
-    margin-top: -38px;
-}
